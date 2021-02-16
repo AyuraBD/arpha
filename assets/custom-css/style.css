@@ -133,6 +133,7 @@ body{
 		transform:translateX(0%);
 		transition:0.5s;
 		position: absolute;
+		z-index:999;
 	}
 
 
@@ -207,7 +208,10 @@ body{
 		font-size:3.5em;
 	}
 	#about .info h1{
-		font-size:30px;
+		#about .info h1 {
+		    font-size: 30px;
+		    text-align: center;
+}
 	}
 	#about .info p{
 		font-size:15px;
@@ -644,3 +648,10 @@ body{
 	text-align:center;
 }
 /*-------footer-------*/
+@media (max-width:440px){
+	#services .heading h1{
+	font-size:3em;
+	}
+}
+
+
